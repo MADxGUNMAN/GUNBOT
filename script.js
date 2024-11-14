@@ -55,6 +55,22 @@ function takeCommand(message) {
         window.open("https://www.instagram.com/sohaib._.908/");
         speak("i am created by ansari shoaib.");
 
+    } else if (message.includes('who is ansari shoaib?') || message.includes('who is ansari sohaib?')|| message.includes('who is ansari sohib?')|| message.includes('who is ansari souaib?')|| message.includes('tell me about your creator.')|| message.includes('tell me about your creator ansari shoaib.')|| message.includes('tell me something about your creator.')|| message.includes('tell me something about ansari shoaib.')) {
+        window.open("https://ansarisohaib.netlify.app/");
+        speak("Ansari Shoaib is a passionate web developer and designer with expertise in both front-end and back-end technologies. He developed projects like the AI chatbot Storm, the virtual assistant Storm, and, two portfolio websites featuring futuristic animation and design. Sohaib has also developed web games such as Stick Hero and Shadow Run, as well as business-oriented websites, including Gunman's Heaven (a hotel booking platform) and The Hungry Gunman (a restaurant food ordering website). In addition, he generously created a virtual assistant storm which is me, something for which I'm truly grateful.");
+
+    } else if (message.includes('open my website.')) {
+        window.open("https://ansarisohaib.netlify.app/");
+        speak("as you wish sir.");
+
+    } else if (message.includes('open my portfolio.') || message.includes('open my resume.')) {
+        window.open("https://ansarisouaib.netlify.app/");
+        speak("as you wish sir.");
+
+    } else if (message.includes("open chatbot.")|| message.includes('open chat bot.')|| message.includes('open chat boat.')|| message.includes('open chat board.')|| message.includes('open my chat board.')|| message.includes('open chat bot storm.')|| message.includes('open my chatbot.')) {
+        window.open("https://madxgunman.github.io/CHATBOT-STOM-V2/", "_blank");
+        speak("Opening chatbot storm...");
+
     } else if (message.includes("open google")) {
         window.open("https://google.com", "_blank");
         speak("Opening Google...");
